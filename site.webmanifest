@@ -1,0 +1,172 @@
+{
+  "short_name": "Cuentachistes",
+  "name": "Cuentachistes Cloud",
+  "id": "/index.html",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffeb3b",
+  "background_color": "#fffbfe",
+  "description": "Aplicación divertida que permite explorar los chistes de los integrantes del equipo de Blue Cloud, con información renderizada tanto en el cliente como en el servidor.",
+  "screenshots": [
+    {
+      "src": "/img/screenshot_horizontal.png",
+      "sizes": "1746x1116",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Cuentachistes Cloud"
+    },
+    {
+      "src": "/img/screenshot_horizontal_2.png",
+      "sizes": "1746x1308",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Cuentachistes Cloud (2)"
+    },
+    {
+      "src": "/img/screenshot_horizontal_3.png",
+      "sizes": "1746x1308",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Cuentachistes Cloud (3)"
+    },
+    {
+      "src": "/img/screenshot_horizontal_4.png",
+      "sizes": "1746x1356",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Cuentachistes Cloud (4)"
+    },
+    {
+      "src": "/img/screenshot_vertical.png",
+      "sizes": "986x1354",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cuentachistes Cloud (5)"
+    },
+    {
+      "src": "/img/screenshot_vertical_2.png",
+      "sizes": "986x1354",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cuentachistes Cloud (6)"
+    },
+    {
+      "src": "/img/screenshot_vertical_3.png",
+      "sizes": "986x1354",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cuentachistes Cloud (7)"
+    },
+    {
+      "src": "/img/screenshot_vertical_4.png",
+      "sizes": "986x1388",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cuentachistes Cloud (8)"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/img/maskable_icon_x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon.png",
+      "sizes": "2925x2925",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icono2048.png",
+      "sizes": "2048x2048",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable_icon_x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/maskable_icon.png",
+      "sizes": "2925x2925",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
