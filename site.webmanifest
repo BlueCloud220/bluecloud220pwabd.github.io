@@ -1,68 +1,68 @@
 {
-  "short_name": "Cuentachistes",
-  "name": "Cuentachistes Cloud",
+  "short_name": "DataCat",
+  "name": "PWA DataCat",
   "id": "/index.html",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#ffeb3b",
+  "theme_color": "#4caf50",
   "background_color": "#fffbfe",
-  "description": "Aplicación divertida que permite explorar los chistes de los integrantes del equipo de Blue Cloud, con información renderizada tanto en el cliente como en el servidor.",
+  "description": "Aplicación intuitiva que permite gestionar categorías de manera eficiente a través de una PWA optimizada. Facilita altas, bajas, cambios y consultas con una interfaz ágil y conexión directa a la base de datos para mantener la información siempre actualizada.",
   "screenshots": [
     {
       "src": "/img/screenshot_horizontal.png",
-      "sizes": "1746x1116",
+      "sizes": "2178x1194",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Cuentachistes Cloud"
+      "label": "PWA DataCat"
     },
     {
       "src": "/img/screenshot_horizontal_2.png",
-      "sizes": "1746x1308",
+      "sizes": "2178x1194",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Cuentachistes Cloud (2)"
+      "label": "PWA DataCat (2)"
     },
     {
       "src": "/img/screenshot_horizontal_3.png",
-      "sizes": "1746x1308",
+      "sizes": "2178x1194",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Cuentachistes Cloud (3)"
+      "label": "PWA DataCat (3)"
     },
     {
       "src": "/img/screenshot_horizontal_4.png",
-      "sizes": "1746x1356",
+      "sizes": "2178x1194",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Cuentachistes Cloud (4)"
+      "label": "PWA DataCat (4)"
     },
     {
       "src": "/img/screenshot_vertical.png",
-      "sizes": "986x1354",
+      "sizes": "930x1634",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Cuentachistes Cloud (5)"
+      "label": "PWA DataCat (5)"
     },
     {
       "src": "/img/screenshot_vertical_2.png",
-      "sizes": "986x1354",
+      "sizes": "930x1634",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Cuentachistes Cloud (6)"
+      "label": "PWA DataCat (6)"
     },
     {
       "src": "/img/screenshot_vertical_3.png",
-      "sizes": "986x1354",
+      "sizes": "930x1634",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Cuentachistes Cloud (7)"
+      "label": "PWA DataCat (7)"
     },
     {
       "src": "/img/screenshot_vertical_4.png",
-      "sizes": "986x1388",
+      "sizes": "930x1634",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Cuentachistes Cloud (8)"
+      "label": "PWA DataCat (8)"
     }
   ],
   "icons": [
@@ -110,7 +110,7 @@
     },
     {
       "src": "/img/maskable_icon.png",
-      "sizes": "2925x2925",
+      "sizes": "2730x2730",
       "type": "image/png",
       "purpose": "any"
     },
@@ -164,7 +164,7 @@
     },
     {
       "src": "/img/maskable_icon.png",
-      "sizes": "2925x2925",
+      "sizes": "2730x2730",
       "type": "image/png",
       "purpose": "maskable"
     }

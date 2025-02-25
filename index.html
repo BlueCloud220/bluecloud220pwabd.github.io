@@ -2,7 +2,7 @@
 <html lang="es" class="light dark">
   <head>
     <meta charset="UTF-8" />
-    <title>Formulario - Cuentachistes Cloud</title>
+    <title>Acceso a base de datos - PWA DataCat</title>
 
     <script src="js/registraServiceWorker.js"></script>
 
@@ -22,12 +22,12 @@
   </head>
 
   <body
-    onload="consumeJson('srv/pasatiempos.php')
+    onload="consumeJson('srv/categorias.php')
     .then(respuesta => muestraObjeto(document, respuesta.body))
     .catch(muestraError)"
   >
     <md-top-app-bar adicional="tab" style="text-align: center">
-      <h1>Formulario - Cuentachistes Cloud</h1>
+      <h1>Acceso a base de datos - PWA DataCat</h1>
     </md-top-app-bar>
 
     <nav-tab-fixed id="tab"></nav-tab-fixed>

@@ -20,7 +20,7 @@ const VERSION = "1.00";
 /**
  * Nombre de la carpeta de caché.
  */
-const CACHE = "cuentachistes";
+const CACHE = "DataCat";
 
 /**
  * Archivos requeridos para que la aplicación funcione fuera de
@@ -41,12 +41,16 @@ const ARCHIVOS = [
   "css/light-mc.css",
   "css/light.css",
   "css/transicion_pestanas.css",
+  "error/categorianoencontrada.html",
+  "error/descripcionenblanco.html",
   "error/errorinterno.html",
+  "error/estadoenblanco.html",
+  "error/faltadescripcion.html",
+  "error/faltaestado.html",
   "error/faltaid.html",
   "error/faltanombre.html",
   "error/idenblanco.html",
   "error/nombreenblanco.html",
-  "error/pasatiemponoencontrado.html",
   "error/resultadonojson.html",
   "img/icono2048.png",
   "img/maskable_icon.png",
@@ -75,6 +79,7 @@ const ARCHIVOS = [
   "lib/css/md-list.css",
   "lib/css/md-menu.css",
   "lib/css/md-ripple.css",
+  "lib/css/md-segmented-button.css",
   "lib/css/md-slider-field.css",
   "lib/css/md-standard-icon-button.css",
   "lib/css/md-tab.css",

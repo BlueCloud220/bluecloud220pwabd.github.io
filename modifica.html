@@ -2,7 +2,7 @@
 <html lang="es" class="light dark">
   <head>
     <meta charset="UTF-8" />
-    <title>Formulario - Cuentachistes Cloud</title>
+    <title>Formulario - PWA DataCat</title>
 
     <script src="js/registraServiceWorker.js"></script>
 
@@ -29,23 +29,23 @@
 
   <body
     onload="if (params.size > 0) {
-   consumeJson('srv/pasatiempo.php?' + params)
+   consumeJson('srv/categoria.php?' + params)
     .then(respuesta => muestraObjeto(forma, respuesta.body))
     .catch(muestraError)
   }"
   >
     <form
       id="forma"
-      onsubmit="submitForm('srv/pasatiempo-modifica.php', event)
+      onsubmit="submitForm('srv/categoria-modifica.php', event)
     .then(respuesta => location.href = 'index.html')
     .catch(muestraError)"
     >
       <md-top-app-bar class="medium" headline="h1Headline">
-        <h1>Formulario - Cuentachistes Cloud</h1>
+        <h1>Modificar Categoría - PWA DataCat</h1>
         <a
           type="button"
           class="md-standard-icon-button"
-          title="Salir"
+          title="Cancelar"
           slot="navigation"
           href="index.html"
         >
@@ -72,7 +72,7 @@
           type="button"
           onclick="
         if (params.size > 0 && confirm('Confirma la eliminación')) {
-        consumeJson('srv/pasatiempo-elimina.php?' + params)
+        consumeJson('srv/categoria-elimina.php?' + params)
         .then(() => location.href = 'index.html')
         .catch(muestraError)
         }"
@@ -85,13 +85,58 @@
       <nav-tab-fixed id="tab"></nav-tab-fixed>
 
       <main>
-        <input name="id" type="hidden" />
+        <h1 id="h1Headline">Modificar</h1>
+
+        <p style="display: none">
+          <label class="md-filled-text-field">
+            <input name="id" type="hidden" />
+            <span>Id *</span>
+            <small>Obligatorio</small>
+          </label>
+        </p>
 
         <p>
           <label class="md-filled-text-field">
             <input name="nombre" value="Cargando…" placeholder="Nombre*" />
             <span>Nombre *</span>
             <small>Obligatorio</small>
+          </label>
+        </p>
+
+        <p>
+          <label class="md-filled-text-field">
+            <textarea
+              name="descripcion"
+              value="Cargando…"
+              rows="3"
+              placeholder="Descripción"
+            ></textarea>
+            <span>Dirección *</span>
+            <small>Obligatorio</small>
+          </label>
+        </p>
+
+        <p class="md-segmented-button">
+          <input
+            id="option1"
+            type="radio"
+            name="estado"
+            checked
+            value="Habilitado"
+          />
+          <label for="option1">
+            <span class="material-symbols-outlined">done</span>
+            Habilitado
+          </label>
+          <input
+            id="option2"
+            type="radio"
+            name="estado"
+            value="Deshabilitado"
+          />
+          <label for="option2">
+            <span class="material-symbols-outlined">done</span>
+            Deshabilitado
           </label>
         </p>
       </main>

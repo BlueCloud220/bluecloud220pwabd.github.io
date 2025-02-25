@@ -2,7 +2,7 @@
 <html lang="es" class="light dark">
   <head>
     <meta charset="UTF-8" />
-    <title>Formulario - Cuentachistes Cloud</title>
+    <title>Formulario - PWA DataCat</title>
 
     <script src="js/registraServiceWorker.js"></script>
 
@@ -22,21 +22,23 @@
 
   <body>
     <form
-      onsubmit="submitForm('srv/pasatiempo-agrega.php', event)
+      onsubmit="submitForm('srv/categoria-agrega.php', event)
         .then(modelo => location.href = 'index.html')
         .catch(muestraError)"
     >
-      <md-top-app-bar class="center-aligned">
-        <h1>Formulario - Cuentachistes Cloud</h1>
+      <md-top-app-bar class="center-aligned" headline="h1Headline">
+        <h1>Nueva Categoría - PWA DataCat</h1>
+
         <a
           type="button"
           class="md-standard-icon-button"
-          title="Salir"
+          title="Cancelar"
           slot="navigation"
           href="index.html"
         >
           <span class="material-symbols-outlined">close</span>
         </a>
+
         <button
           type="submit"
           class="md-standard-icon-button"
@@ -45,16 +47,44 @@
         >
           <span class="material-symbols-outlined">save</span>
         </button>
+
       </md-top-app-bar>
 
       <nav-tab-fixed id="tab"></nav-tab-fixed>
 
       <main>
+        <p><h1 id="h1Headline">Nuevo</h1></p>
+
         <p>
           <label class="md-filled-text-field">
-            <input name="nombre" required placeholder="Nombre*" />
+            <input name="nombre" autofocus placeholder="Nombre*" />
             <span>Nombre *</span>
             <small>Obligatorio</small>
+          </label>
+        </p>
+
+        <p>
+          <label class="md-filled-text-field">
+            <textarea
+              name="descripcion"
+              rows="3"
+              placeholder="Descripción"
+            ></textarea>
+            <span>Dirección *</span>
+            <small>Obligatorio</small>
+          </label>
+        </p>
+
+        <p class="md-segmented-button">
+          <input id="option1" type="radio" name="estado" checked value="Habilitado" />
+          <label for="option1">
+            <span class="material-symbols-outlined">done</span>
+            Habilitado
+          </label>
+          <input id="option2" type="radio" name="estado" value="Deshabilitado" />
+          <label for="option2">
+            <span class="material-symbols-outlined">done</span>
+            Deshabilitado
           </label>
         </p>
       </main>
