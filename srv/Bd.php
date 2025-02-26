@@ -10,11 +10,11 @@ class Bd
 
       self::$pdo = new PDO(
         // cadena de conexión
-        "mysql:host=localhost;dbname=pwa",
+        "mysql:host=sql311.infinityfree.com;dbname=if0_38398297_pwa",
         // usuario
-        "root",
+        "if0_38398297",
         // contraseña
-        "",
+        "U1A4wWZT2WJMymg",
         // Opciones: pdos no persistentes y lanza excepciones.
         [PDO::ATTR_PERSISTENT => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
       );
